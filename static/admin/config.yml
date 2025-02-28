@@ -2,7 +2,7 @@ backend:
   name: github
   repo: catuy/hugo_starter
   branch: master
-  base_url: hugo-starter-ewe.pages.dev
+  base_url: https://hugo-starter-ewe.pages.dev/
   auth_endpoint: /api/auth
   
   # This line should *not* be indented
