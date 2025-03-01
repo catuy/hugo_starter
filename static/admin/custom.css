@@ -269,3 +269,41 @@ body {
 [class*="StyledDropdownButton-button-default-caret-caretDown-AppHeaderQuickNewButton-button-medium-gray"] {
   display: none;
 }
+
+[class*="WorkflowTop-card-cardTop"] {
+  box-shadow: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 100%;
+  padding: 18px 20px;
+  margin-bottom: 28px;
+  float: left;
+}
+
+[class*="WorkflowListContainer"] {
+  min-height: 60%;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  float: left;
+  width: 100%;
+}
+
+[class*="WorkflowTop-card-cardTop"] {
+  box-shadow: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 28px;
+  float: left;
+  padding: 78px 0px 32px;
+}
+
+[class*="WorkflowTopHeading-cardTopHeading"] {
+  margin: 0px;
+  padding: 0px;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.5;
+}

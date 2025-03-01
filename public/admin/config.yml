@@ -9,8 +9,8 @@ publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'posts'
+    label: 'Posts'
     folder: 'content/posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
